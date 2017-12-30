@@ -1,0 +1,18 @@
+# Bảo vệ file .htaccess
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# rewrite url
+RewriteEngine on
+
+# admin
+RewriteRule ^index.html$ index.php
+
+# add
+RewriteRule ^add$ add.php
+
+# edit
+RewriteRule ^edit/([0-9]+)$ edit.php?id=$1
+RewriteRule ^edit/([0-9]+)/$ edit.php?id=$1

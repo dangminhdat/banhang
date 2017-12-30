@@ -1,0 +1,719 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.gioithieuwebsite{
+    border-bottom: 1px solid #ee314f;
+}
+.gioithieuwebsite h1{
+    width: 16%;
+    color: #ee314f;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #ee314f;
+}
+.error-404 .error-div h1{
+    font-size: 9em;
+    margin-bottom: -16px;
+}
+.error-404 .error-div {
+    font-size: 16px;
+    color: #fff;
+    margin: 17% 10% 0 0;
+    text-align: right;
+    display: block;
+}
+.error-404{
+    background: url(http://banhang.byethost5.com/public/frontend/image/404.jpg) center center no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.sanphamhot .sanpham span::after {
+    content: "";
+    display: inline-block;
+    background: #fff;
+    position: absolute;
+    padding: 10px 20px;
+    transform: rotate(45deg);
+    right: -14px;
+    top: -9px;
+}
+.sanphamhot .sanpham span::before {
+    content: "";
+    display: inline-block;
+    background: #fff;
+    position: absolute;
+    padding: 25px 8px;
+    transform: rotate(45deg);
+    left: -4px;
+    top: -18px;
+}
+.sanphamhot .sanpham span {
+    font-size: 12px;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 27px;
+    width: 47%;
+    right: 1px;
+}
+
+.owl-carousel .owl-dots, .owl-carousel .owl-nav{
+    display: none;
+}
+
+.sanphamhot .media .thongtinsoluong {
+    margin: 10px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.sanphamhot i.fa.fa-eye {
+    font-size: 14px;
+}
+
+.lienquan p span {
+    font-size: 19px;
+    color: #0a0a0a;
+}
+
+.media-body h1{
+    padding: 5px 0 11px 0;
+}
+
+span.thongbao.alert.alert-success {
+    margin: -5px 0 -13px;
+    display: block;
+}
+
+input.soluong-sanpham {
+    width: 50px;
+}
+
+.giohang > span >span.badge {
+    top: -35px;
+    left: 73px;
+    position: absolute;
+    background-color: #ee314f;
+}
+
+.slide-anh-2 {
+    overflow: hidden;
+}
+
+.sanphamhot .giasanpham {
+    font-size: 17px;
+}
+
+.sanphamhot .tensanpham {
+    font-size: 17px;
+}
+
+.sanphamhot .media.text-center {
+    margin: 0 0 20px 0;
+    color: #3328c5;
+}
+
+.sanphamlienquan .lienquan p a {
+    height: 43px;
+    font-size: 18px;
+    display: block;
+}
+.sanphamlienquan .lienquan p a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.sanphamlienquan h3 {
+    padding: 0 0 12px;
+    border-bottom: 2px solid #333;
+}
+
+.motasanpham ul.nav.nav-tabs {
+    border-bottom: 2px solid #c1c1c1;
+    margin-bottom: 10px;
+}
+
+.motasanpham li.active {
+    /*border-bottom: 2px solid red;*/
+}
+
+.motasanpham li a {
+    border: 1px solid #333!important;
+    margin: 0 -1px 0 0;
+}
+
+.sanphamhot .muahang {
+    /* color: #fff; */
+    background: #ee314f;
+    border-radius: 5px;
+    padding: 10px 0 2px 10px;
+}
+
+.sanphamhot .muahang input[type="number"] {
+    width: 39px;
+}
+
+.sanphamhot .muahang p span {color: #fff;display: inline-block;width: 83px;}
+body{
+    font-family: "Times New Roman",sans-serif;
+}
+
+.motasanpham {
+    margin-top: 15px;
+    padding: 12px 0;
+    border-radius: 5px;
+}
+div#image_small img {
+    border: 1px solid red;
+    float: left;
+    opacity: 0.3;
+    height: 104px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 7px 0 6px 6px;
+}
+
+#image_small .active {
+    opacity: 1!important;
+    border: 2px solid red!important;
+}
+
+.image_big {width: 284px;padding: 0 10px;border: 1px solid #c1c1c1;overflow: hidden;}
+
+.image_big > img.big_image {
+    margin-top: 7px;
+    border: 1px solid #c1c1c1;
+    width: 261px;
+    -webkit-animation-name: hieuung;
+    -o-animation-name: hieuung;
+    animation-name: hieuung;
+    -webkit-animation-duration: 0.4s;
+    -o-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    opacity: 1;
+    display: block;
+}
+@keyframes hieuung{
+    from { opacity: 0.3 }
+    to { opacity: 1 }
+}
+.banner img {
+    width: 100%;
+}
+
+.sidebar form#lienhegiohang input.form-control,.sidebar form#lienhegiohang select.form-control {
+    border-radius: 0;
+}
+
+.sidebar .table img {
+    margin-right: 16px;
+}
+
+.sidebar .qc img {
+    margin: 16px 33px;
+}
+
+.sanphamhot.danhmucsanpham {
+    margin-top: -35px;
+}
+
+.header .logo img {
+    margin: auto;
+    display: block;
+}
+
+.footer .gioithieu p.link span {
+    cursor: pointer;
+    border: 1px solid;
+    text-align: center;
+    width: 41px;
+    padding: 8px;
+    background: #52504B;
+    font-size: 20px;
+    color: #fff;
+}
+.footer .gioithieu p.link span.fa-facebook:hover{
+    background: #4667A4;
+}
+.footer .gioithieu p.link span.fa-google-plus:hover{
+    background: #d95445;
+}
+.footer .gioithieu p.link span.fa-youtube:hover{
+    background: #da0a0a;
+}
+.header p {
+    color: #ee314f;
+    font-weight: bold;
+}
+
+.header button.btn.btn-default {
+    color: #ee314f;
+    font-weight: bold;
+}
+
+.navbar.mainmenu a.navbar-brand {
+    color: #ee314f;
+}
+
+.sub-footer {
+    background: #1d1c1b;
+}
+
+.sub-footer p {
+    color: #fff;
+    margin: 6px 15px;
+}
+
+.gt {
+    margin: 18px 0;
+}
+
+.lienhemuahang {
+    display: grid;
+    margin: 10px 0px;
+}
+
+.lienhemuahang span {
+    margin: 9px 0;
+}
+
+span.email-footer {
+    background: url(http://banhang.byethost5.com/public/frontend/image/footer-contact-mail.png) no-repeat;
+    padding: 3px 45px;
+}
+
+span.admin-footer {
+    background: url(http://banhang.byethost5.com/public/frontend/image/footer-contact-map.png) no-repeat;
+    padding: 3px 45px;
+}
+span.call-footer {
+    background: url(http://banhang.byethost5.com/public/frontend/image/footer-contact-phone.png) no-repeat;
+    padding: 3px 45px;
+}
+
+.footer {
+    background: #f1eded;
+}
+
+.footer ul {
+    list-style: url(http://banhang.byethost5.com/public/frontend/image/list-icon.png);
+    margin: 12px 16px;
+}
+
+.footer ul li {
+    padding: 6px 0;
+}
+
+.footer h4 {
+    border-bottom: 1px solid #3a3939;
+    padding: 7px 0;
+}
+
+.banner {
+    margin: 14px;
+}
+
+.navbar.mainmenu .navbar-nav li a {
+    color: #ee314f;
+}
+
+.navbar.mainmenu .navbar-nav li:hover {
+    background: #ee314f;
+}
+
+.navbar.mainmenu .navbar-nav li:hover a {
+    color: #fff;
+}
+.sidebar .panel-body li:hover a {
+    color: #fff;
+}
+.sidebar .panel-body li:hover {
+    background: #ee314f;
+    color: #fff;
+}
+
+.sidebar .panel-body a {
+    color: #ee314f;
+}
+.sidebar .panel-body a:hover {
+    text-decoration: none;
+}
+
+.sidebar .panel-heading {
+    background: #ee314f;
+    color: #fff;
+}
+
+.sidebar .sanphamhot .col-md-12 {
+    margin-top: 18px;
+}
+
+.sidebar .tieude {
+    font-size: 25px;
+    color: #da2c2c;
+    padding: 0;
+}
+
+.sidebar .tieude::before {
+    content: "";
+    padding: 3px 0px;
+    width: 94%;
+    border: 1px dashed red;
+    border-width: 1px 0 1px 0;
+    display: block;
+    position: absolute;
+    bottom: 31px;
+}
+
+.sidebar .tieude::after {
+    content: "";
+    padding: 3px 0;
+    width: 94%;
+    border: 1px dashed red;
+    border-width: 1px 0 1px 0;
+    display: block;
+    position: absolute;
+    bottom: 17px;
+}
+.sidebar .tieude h3 a{
+    color: #da2c2c;
+}
+.sidebar .tieude h3 a:hover{
+    text-decoration: none;
+}
+.sidebar .tieude h3 {
+    font-size: 28px;
+    background: #fff;
+    z-index: 1000;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    padding: 4px 15px;
+}
+.sidebar .giohang h3{
+    padding: 4px 23px 4px 0;
+} 
+.sidebar .sanpham a:hover{
+    text-decoration: none;
+}
+.sidebar .sanpham a {
+    color: #3328c5;
+    margin: 10px 0 20px;
+}
+
+.sanphamhot a.tensanpham {
+    color: #3328c5;
+}
+
+.sidebar .sanpham {
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 0;
+    /*border: 1px solid #ece8e8;*/
+    border-radius: 4px;
+}
+
+.navbar.mainmenu .giohang > span {
+    position: relative;
+    float: left;
+    margin: 12px -58px 0px;
+}
+
+.header .face {
+    margin-top: 39px;
+}
+.menutop .navbar-nav.nav > li{
+    float: left;
+}
+
+.menutop .navbar-nav.nav > li:hover > a {
+    color: #1d1c1b;
+}
+
+.menutop li:hover {
+    background: #fff;
+}
+.navbar.menutop{
+    background: #1d1c1b;
+    min-height: 30px;
+    margin-bottom: 0;
+}
+.menutop .navbar-nav.nav > li > a{
+    padding: 5px 12px 4px 6px;
+    margin-left: 10px;
+    color: #fff;
+}
+.navbar.mainmenu{
+    background: #fff;
+    border-color: #ee314f;
+}
+.navbar.mainmenu .navbar-nav > .active > a, .navbar.mainmenu .navbar-nav > .active > a:hover, .navbar.mainmenu .navbar-nav > .active > a:focus{
+    color: #fff;
+    background: #EE314F;
+}
+.navbar.mainmenu a.giohang{
+    background: url('../image/giohang.png') no-repeat;
+    background-size: 83%;
+    margin-top: 9px;
+    padding: 20px 36px 0px 0px;
+}
+
+.navbar.mainmenu a.giohang:hover {
+    cursor: pointer;
+    margin: 8px -1px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.sidebar .panel-default{box-shadow: 1px 1px 1px 1px #f68f9f;padding: 14px 0px;margin: 0;border-radius: 0;background: rgba(238, 49, 79, 0.54);}
+
+.sidebar .panel-default.thanhtoan {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sidebar .panel-default.thanhtoan p {
+    padding: 10px 0px 0px 8px;
+}
+.panel.panel-default.danhmuc {
+    margin-bottom: 33px;
+}
+.panel.panel-default.khoangia {
+    margin-bottom: 33px;
+}
+.sidebar .list-group-item{border-width: 1px 0px;overflow: hidden;}
+
+.sidebar .list-group-item img {
+    margin-right: 8px;
+}
+.sidebar .list-group{ margin-bottom: 0; }
+.sidebar .sanphamlienquan .owl-carousel img{
+    width: 84%!important;
+}
+.sidebar .owl-carousel img{
+    border: 1px solid #362354;
+    height: 240px;
+    display: inline-block!important;
+}
+
+.sanphamlienquan .lienquan {
+    padding: 10px;
+    /* border: 1px solid #ee314f; */
+}
+.sidebar .owl-carousel{margin-bottom: 0px;}
+
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+
+.sidebar .sanpham img{
+    border: 1px solid #362354;
+    margin: auto;
+    display: block;
+    width: 216px;
+    height: 250px;
+}
+
+/*
+    BREADCRUMS
+*/
+.breadcrumb-arrow {
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    list-style: none;
+    background-color: #f5f7ef;
+    width: 100%;
+}
+.breadcrumb-arrow li:first-child a {
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+    display: inline-block;
+    vertical-align: top
+}
+.breadcrumb-arrow li:not(:first-child) {
+    margin-left: -5px
+}
+.breadcrumb-arrow li+li:before {
+    padding: 0;
+    content: ""
+}
+.breadcrumb-arrow li span {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+    height: 36px;
+    padding: 0 10px 0 25px;
+    line-height: 36px
+}
+.breadcrumb-arrow li:first-child a {
+    padding: 0 10px
+}
+.breadcrumb-arrow li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ee314f;
+    border: 1px solid #ee314f;
+}
+.breadcrumb-arrow li:first-child a {
+    padding-left: 10px
+}
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+    position: absolute;
+    top: -1px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent
+}
+.breadcrumb-arrow li a:before {
+    right: -10px;
+    z-index: 3;
+    border-left-color: #ee314f;
+    border-left-style: solid;
+    border-left-width: 11px
+}
+.breadcrumb-arrow li a:after {
+    right: -11px;
+    z-index: 2;
+    border-left: 11px solid #fff;
+}
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+    background-color: #4fc1e9;
+    border: 1px solid #4fc1e9
+}
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+    border-left-color: #4fc1e9
+}
+.breadcrumb-arrow li a:active {
+    background-color: #2494be;
+    border: 1px solid #2494be
+}
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
+    border-left-color: #ee314f;
+}
+.breadcrumb-arrow li span {
+    color: #434a54
+}
+
+@media screen and (min-width: 992px){
+    .navbar.mainmenu .navbar-header{ margin-left: 20px; }
+}
+@media (min-width: 768px){
+    .container > .navbar-collapse{
+        margin-left: -10px;
+        margin-right: -24px;
+    }
+}
+@media screen and (max-width: 767px){
+    .navbar.mainmenu a.giohang{
+        float: none!important;
+    }
+    .navbar.mainmenu .navbar-nav{
+        margin-bottom: 17px;
+    }
+    .header #timkiem{
+        margin-top: -20px;
+    }
+    .header .face{
+        margin: 24px 0 -7px 0px;
+    }
+    .sidebar .table img{
+        float: none!important;
+    }
+}
+@media screen and (max-width: 991px){
+    .sidebar .danhmuc{
+        display: none;
+    }
+    .sidebar .slide-anh{
+        display: none;
+    }
+    .sidebar .khoangia{
+        display: none;
+    }
+}
+@media screen and (max-width: 627px){
+    .media-left, .media-right, .media-body{
+        display: block;
+    }
+    .image_big{
+        margin: 0 auto;
+    }
+    .sub-footer p.pull-right{
+        float: none!important;
+    }
+    .sub-footer p.pull-left{
+        float: none!important;
+    }
+}
+@media screen and (max-width: 1199px){
+    .sidebar .sanpham img{
+        width: 100%;
+    }
+    .sanphamhot .sanpham span {
+        top: 20px;
+        right: -10px;
+    }
+
+}
+@media screen and (max-width: 991px){
+    .sidebar .sanpham img{
+        width: 70%;
+    }
+    .sanphamhot .sanpham span {
+        top: 27px;
+        width: 37%;
+        right: 34px;
+    }
+
+}
+@media screen and (max-width: 767px){ 
+    .sidebar .sanpham img{
+        width: 40%;
+    }
+    .sanphamhot .sanpham span {
+        top: 20px;
+        width: 17%;
+        right: 27%;
+    }
+}
+@media screen and (max-width: 712px){ 
+    .sanphamhot .sanpham span {
+        top: 18px;
+    }
+}   
+@media screen and (max-width: 676px){ 
+    .sidebar .sanpham img{
+        width: 50%;
+    }
+    .sanphamhot .sanpham span {
+        top: 20px;
+        width: 19%;
+        right: 22%;
+    }
+}
+@media screen and (max-width: 635px){ 
+    .sanphamhot .sanpham span {
+        top: 16px;
+    }
+}
+@media screen and (max-width: 548px){ 
+    .sidebar .sanpham img{
+        width: 60%;
+    }
+    .sanphamhot .sanpham span {
+        top: 12px;
+        width: 22%;
+        right: 17%;
+    }
+}
+@media screen and (max-width: 599px){
+    .sidebar .sanphamlienquan .owl-carousel img{
+        width: 60%!important;
+    }
+}
