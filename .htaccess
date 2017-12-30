@@ -1,0 +1,35 @@
+# Bảo vệ file .htaccess
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# rewrite url
+RewriteEngine on
+
+#trang chu
+RewriteRule ^trang-chu$ index.php
+
+#danh muc
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?id_cate1=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?id_cate1=$1
+
+#danh muc con
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?id_cate1=$1&id_cate2=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?id_cate1=$1&id_cate2=$2
+
+#danh muc con phan trang
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/page/([0-9])$ index.php?id_cate1=$1&id_cate2=$2&page=$3
+
+#chi tiet
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?id_cate1=$1&id_cate2=$2&id_content=$3&id_post=$4
+
+#gio hang
+RewriteRule ^add-card.html$ giohang.php
+
+RewriteRule ^error.html$ index.php?id_cate1=404
+
+ErrorDocument 401 http://banhang.byethost5.com/error.html
+ErrorDocument 403 http://banhang.byethost5.com/error.html
+ErrorDocument 404 http://banhang.byethost5.com/error.html
+ErrorDocument 500 http://banhang.byethost5.com/error.html
