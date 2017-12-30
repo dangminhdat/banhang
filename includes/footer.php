@@ -61,5 +61,10 @@
 	<script src="<?php echo base_url(); ?>public/frontend/jquery/script.js"></script>
 	<script src="<?php echo base_url(); ?>public/frontend/bootstrap/js/bootstrap.js"></script>
 	<script src="<?php echo base_url(); ?>public/frontend/owlcarousel/owl.carousel.min.js"></script>
+	<script>
+	    console.log('%cWebsite này không yêu cầu bạn truy cập vào đây!', 'color: red; font-size: 50px; font-family: sans-serif; text-shadow: 1px 1px 5px #000;');
+	  	console.log('%cNếu còn tiếp tục truy cập vào website này!', 'color: #444; font-size: 25px; font-family: sans-serif;');
+	  	console.log("%cHãy liên hệ ADMIN của website dangminhdat.com này để biết thêm thông tin chi tiết.", 'color: #444; font-size: 25px; font-family: sans-serif;');
+  	</script>
 </body>
 </html>
