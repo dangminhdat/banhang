@@ -47,7 +47,7 @@
 		}
 		else
 		{
-			$title = "Website bán hàng online";
+			$title = $website['title'];
 		}
 	}
 ?>
@@ -57,10 +57,12 @@
 	<meta charset="UTF-8">
 	<title><?php echo $title; ?> | XP Shop</title>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>public/frontend/bootstrap/css/bootstrap.css">
+	<base href="http://banhang.byethost5.com/">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>public/frontend/style/font-awesome.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>public/frontend/style/style.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>public/frontend/owlcarousel/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>public/frontend/owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="shorcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<!-- menutop -->
